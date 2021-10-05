@@ -25,7 +25,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /mentionall\nYou can use this command with text what you want to mention others.\n`Example: /mentionall Good Morning!`\nYou can you this command as a reply to any message. Bot will tag users to that replied messsage.\n"
+  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /mentionall\nYou can use this command with text what you want to mention others!\n`Example: /mentionall Good Morning!`\nYou can you this command as a reply to any message. Bot will tag users to that replied messsage.\n"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Updates', 'https://t.me/Hazard_Bots'),
